@@ -1,12 +1,16 @@
+---
+description: Projeto realizado durante a Omnistack 9.0
+---
+
 # Aircnc
 
 ## Sumario
 
-* [Sobre o Projeto](#sobre-o-projeto)
-  * [Feito com](#feito-com)
-* [Passo a Passo](#passo-a-passo)
-  * [Pré-Requisitos](#pre-requisitos)
-  * [Inicializar o Servidor](#inicializar-o-servidor)
+* [Sobre o Projeto](./#sobre-o-projeto)
+  * [Feito com](./#feito-com)
+* [Passo a Passo](./#passo-a-passo)
+  * [Pré-Requisitos](./#pre-requisitos)
+  * [Inicializar o Servidor](./#inicializar-o-servidor)
 
 ## Sobre o Projeto
 
