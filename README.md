@@ -1,7 +1,3 @@
----
-description: Projeto realizado durante a Omnistack 9.0
----
-
 # Aircnc
 
 ## Sumario
