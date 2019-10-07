@@ -19,7 +19,7 @@ export default function List({ navigation }) {
 
   useEffect(() => {
     AsyncStorage.getItem("user").then(user_id => {
-      const socket = socketio("http://192.168.15.6:3333", {
+      const socket = socketio("http://192.168.15.3:3333", {
         query: { user_id }
       });
 
