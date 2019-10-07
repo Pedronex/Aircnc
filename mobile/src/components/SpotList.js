@@ -18,7 +18,6 @@ function SpotList({ tech, navigation }) {
       const response = await api.get("/spots", {
         params: { tech }
       });
-      console.log(response.data);
       setSpots(response.data);
     }
 
@@ -50,7 +49,10 @@ function SpotList({ tech, navigation }) {
             <Text style={styles.price}>
               {item.price ? `R$${item.price}/dia` : "Gratis"}
             </Text>
-            <TouchableOpacity onPress={() => handleNavigate(item._id)} style={styles.button}>
+            <TouchableOpacity
+              onPress={() => handleNavigate(item._id)}
+              style={styles.button}
+            >
               <Text style={styles.buttonText}>Selecionar reserva</Text>
             </TouchableOpacity>
           </View>
