@@ -11,7 +11,7 @@ module.exports = {
     const bookingUserSocket = req.connectedUsers[booking.user];
 
     if (bookingUserSocket) {
-      req.io.to(bookingUserSocket).emit("booking_request", booking);
+      req.io.to(bookingUserSocket).emit("booking_response", booking);
     }
 
     await booking.save();

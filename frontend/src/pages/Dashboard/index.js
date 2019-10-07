@@ -28,7 +28,6 @@ export default function Dashboard(){
             });
 
             setSpots(response.data);
-            console.log(response.data);
         }
 
         loadSpots();

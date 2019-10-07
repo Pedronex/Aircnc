@@ -5,7 +5,8 @@ import {
   StyleSheet,
   Image,
   AsyncStorage,
-  Alert
+  Alert,
+  TouchableOpacity
 } from "react-native";
 
 import logo from "../../assets/logo.png";
@@ -13,7 +14,7 @@ import logo from "../../assets/logo.png";
 import SpotList from "../components/SpotList";
 import { ScrollView } from "react-native-gesture-handler";
 
-export default function List() {
+export default function List({ navigation }) {
   const [techs, setTechs] = useState([]);
 
   useEffect(() => {
@@ -40,9 +41,16 @@ export default function List() {
     });
   }, []);
 
+  async function handlerLogin() {
+    AsyncStorage.removeItem("user");
+    navigation.navigate("Login");
+  }
+
   return (
     <SafeAreaView style={styles.container}>
-      <Image source={logo} style={styles.logo} />
+      <TouchableOpacity onPress={handlerLogin}>
+        <Image source={logo} style={styles.logo} />
+      </TouchableOpacity>
 
       <ScrollView>
         {techs.map(tech => (
