@@ -8,17 +8,20 @@
 
 ## Sumario
 
-* [Sobre o Projeto](./#sobre-o-projeto)
-  * [Tecnologias usadas](./#feito-com)
-* [Passo a Passo](./#passo-a-passo)
-  * [Pré-Requisitos](./#pre-requisitos)
-  * [Inicializar o Servidor](./#inicializar-o-servidor)
-  * [Inicializar a Aplicação Web](./#inicializar-a-aplicação-web)
-  * [Inicializar a Aplicação Mobile](./#inicializar-a-aplicação-mobile)
-* [Licença](./#Licença)
-* [Contato](./#Contato)
+* [Sobre o Projeto](#sobre-o-projeto)
+  * [Tecnologias usadas](#feito-com)
+* [Passo a Passo](#passo-a-passo)
+  * [Pré-Requisitos](#pre-requisitos)
+  * [Inicializar o Servidor](#inicializar-o-servidor)
+  * [Inicializar a Aplicação Web](#inicializar-a-aplicação-web)
+  * [Inicializar a Aplicação Mobile](#inicializar-a-aplicação-mobile)
+* [Licença](#Licença)
+* [Contato](#Contato)
+* [Imagens do Projeto](#Imagens-do-Projeto)
+  * [Mobile](#Mobile)
+  * [Web](#Web)
 
-  **Sobre o Projeto**
+# Sobre o Projeto
 
 O projeto foi desenvolvido com o intuito de aprender sobre ReactJS, React Native e Node em uma só aplicação. A aplicação em si é inovadora, pensada para realizar pedidos de reserva de salas para programadores.  
 A ideia é poder chamar novos programadores para a sua empresa para conhecer o ambiente de produção, realizar mentorias, conhecer novos desenvolvedores ou até alugar um espaço para realizar as atividades para a empresa.
@@ -87,33 +90,8 @@ Pedro - [Github](https://github.com/Pedronex) - **pedrosoares.nex@gmail.com**
 
 ## Imagens do Projeto
 
-### Web
-
-{% tabs %}
-{% tab title="Login" %}
-![](https://i.ibb.co/xDLj57p/Screenshot-2.png)
-{% endtab %}
-
-{% tab title="Lista de Spots" %}
-![](https://i.ibb.co/hsZggZK/Screenshot-3.png)
-{% endtab %}
-
-{% tab title="Cadastrar um Novo Spot" %}
-![](https://i.ibb.co/bFjkqMW/Screenshot-1.png)
-{% endtab %}
-{% endtabs %}
-
 ### Mobile
+<a href="https://ibb.co/bPGFgWK"><img src="https://i.ibb.co/yXxpnfQ/Untitled.png" alt="Untitled" border="0"></a>
 
-{% tabs %}
-{% tab title="Login" %}
-![](https://i.ibb.co/j42hSQq/Screenshot-20191007-155104-Expo.png)
-{% endtab %}
-
-{% tab title="Lista de Spots" %}
-![](https://i.ibb.co/4MsTndY/Screenshot-20191007-162242-Expo.png)
-{% endtab %}
-{% endtabs %}
-
-         
-
+### Web
+<a href="https://ibb.co/V2ywrDv"><img src="https://i.ibb.co/MMTBWpR/Untitled2.png" alt="Untitled2" border="0"></a>
